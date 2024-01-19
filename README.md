@@ -107,18 +107,40 @@ Tiers based on [PoGo Raid & Info Sheets](https://docs.google.com/spreadsheets/d/
 
 ### All S Tiers
 
+#### Non-shadow (Mega if possible)
 ```
-+heracross&!shadow,+tyranitar,+rayquaza,+garchomp&!shadow,+gardevoir&!shadow,+lucario&!shadow,+blaziken&!shadow,+charizard&!shadow,+rayquaza&!shadow,+gengar&!shadow,+sceptile&!shadow,+groudon&!shadow,+mamoswine&shadow,+beedrill&!shadow,+mewtwo&shadow,+alakazam&!shadow,+rampardos&shadow,+metagross&shadow,+kyogre&shadow,+swampert&!shadow,+blastoise&!shadow
++heracross,+tyranitar,+rayquaza,+garchomp,+gardevoir,+lucario,+blaziken,+charizard,+rayquaza,+gengar,+sceptile,+groudon,+beedrill,+alakazam,+swampert,+blastoise,&!shadow
+```
+
+#### Shadow
+```
++mewtwo,+rampardos,+metagross,+kyogre,&shadow
 ```
 
 ### All A Tiers
 
+#### Non-shadow (Mega if possible)
+
 ```
-+pinsir&!shadow,+pheromosa&!shadow,+volcarona&!shadow,+houndoom&!shadow,+hydreigon,+weavile&shadow,+salamence,+garchomp&shadow,+dragonite&shadow,+latios&!shadow,+raikou&shadow,+xurkitree,+manectric&!shadow,+zekrom,+electivire&shadow,+zapdos&shadow,+thundurus,+magnezone&shadow,+gardevoir&shadow,+terrakion,+machamp&shadow,+reshiram,+blaziken&shadow,+moltres&shadow,+yveltal,+staraptor&shadow,+pidgeot&!shadow,+ho-oh&shadow,+banette&!shadow,+chandelure&shadow,+gengar&shadow,+kartana,+venusaur&!shadow,+excadrill&shadow,+baxcalibur&!shadow,+darmanitan&galar,+nihilego,+toxicroak&shadow,+mewtwo&!shadow,+gallade&!shadow,+diancie&!shadow,+rhyperior&shadow,+metagross&!shadow,+excadrill&shadow,+gyarados&!shadow,+kyogre&!shadow,+swampert&shadow,+empoleon&shadow,+feraligatr&shadow
++pinsir,+pheromosa,+volcarona,+houndoom,+hydreigon,+salamence,+latios,+xurkitree,+manectric,+zekrom,+thundurus,+terrakion,+reshiram,+yveltal,+pidgeot,+h,+banette,+kartana,+venusaur,+baxcalibur,+darmanitan&galar,+nihilego,+mewtwo,+gallade,+diancie,+metagross,+gyarados,+kyogre,&!shadow
+```
+
+#### Shadow
+
+```
++hydreigon,+weavile,+salamence,+garchomp,+dragonite,+raikou,+xurkitree,+zekrom,+electivire,+zapdos,+thundurus,+magnezone,+gardevoir,+terrakion,+machamp,+reshiram,+blaziken,+moltres,+yveltal,+staraptor,+ho-oh,+chandelure,+gengar,+kartana,+excadrill,+nihilego,+toxicroak,+rhyperior,+swampert,+empoleon,+feraligatr,&shadow
 ```
 
 ### All B Tiers
 
+#### Non-shadow (Mega if possible)
+
 ```
-+scizor,+absol&!shadow,+darkrai,+honchkrow&shadow,+houndoom&shadow,+latias&!shadow,+latios&shadow,+luxray&shadow,+ampharos&!shadow,+granbull&shadow,+keldeo,+hariyama&shadow,+entei&shadow,+moltres&shadow,+chandelure&shadow,+charizard&shadow,+lugia,+giratina,+shaymin,+sceptile&shadow,+landorus,+mamoswine&!shadow,+glalie&!shadow,+victreebel&shadow,+vileplume&shadow,+hoopa,+alakazam&shadow,+aerodactyl&!shadow,+gigalith&shadow,+dialga,+aggron&!shadow,+gyarados&shadow,+crawdaunt&shadow,+roserade
++scizor,+absol,+darkrai,+latias,+ampharos,+keldeo,+lugia,+giratina,+shaymin,+landorus,+mamoswine,+glalie,+hoopa,+aerodactyl,+dialga,+aggron,+roserade,&!shadow
+```
+
+#### Shadow
+
+```
++scizor,+darkrai,+honchkrow,+houndoom,+latios,+luxray,+granbull,+keldeo,+hariyama,+entei,+moltres,+chandelure,+charizard,+lugia,+giratina,+shaymin,+sceptile,+landorus,+victreebel,+vileplume,+hoopa,+alakazam,+gigalith,+dialga,+gyarados,+crawdaunt,+roserade,&shadow
 ```
