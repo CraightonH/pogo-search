@@ -30,79 +30,79 @@ Tiers based on [PoGo Raid & Info Sheets](https://docs.google.com/spreadsheets/d/
 ### PvE Fairy S-B Tiers
 
 ```
-+gardevoir,+alakazam&!shadow,+granbull&shadow
++gardevoir,+alakazam,+granbull&!+granbull,shadow
 ```
 
 ### PvE Fighting S-B Tiers
 
 ```
-+lucario&!shadow,+blaziken&!shadow,+heracross&!shadow,+terrakion,+machamp&shadow,+keldeo,+alakazam&!shadow,+hariyama&shadow
++lucario,+blaziken,+heracross,+terrakion,+machamp,+keldeo,+alakazam,+hariyama&!+machamp,shadow&!+hariyama,shadow
 ```
 
 ### PvE Fire S-B Tiers
 
 ```
-+blaziken,+charizard,+reshiram,+entei&shadow,+moltres&shadow,+ho-oh&shadow,+chandelure&shadow
++blaziken,+charizard,+reshiram,+entei&shadow,+moltres,+ho-oh,+chandelure&!+entei,shadow&!+moltres,shadow&!+ho-oh,shadow&!+chandelure,shadow
 ```
 
 ### PvE Flying S-B Tiers
 
 ```
-+rayquaza,+moltres&shadow,+yveltal,+staraptor&shadow,+pidgeot&!shadow,+ho-oh&shadow,+honchkrow&shadow,+lugia
++rayquaza,+moltres,+yveltal,+staraptor,+pidgeot,+ho-oh,+honchkrow,+lugia&!+moltres,shadow&!+staraptor,shadow&!+ho-oh,shadow&!+honchkrow,shadow
 ```
 
 ### PvE Ghost S-B Tiers
 
 ```
-+gengar,+banette,+chandelure&shadow,+mewtwo&shadow,+giratina
++gengar,+banette,+chandelure,+mewtwo,+giratina&!+chandelure,shadow&!+mewtwo,shadow
 ```
 
 ### PvE Grass S-B Tiers
 
 ```
-+sceptile,+kartana,+venusar&!shadow,+shaymin
++sceptile,+kartana,+venusar,+shaymin
 ```
 
 ### PvE Ground S-B Tiers
 
 ```
-+groudon,+garchomp,+excadrill&shadow,+mamoswine&shadow,+landorus,+rhyperior&shadow
++groudon,+garchomp,+excadrill,+mamoswine,+landorus,+rhyperior&!+excadrill,shadow&!+mamoswine,shadow&!+rhyperior,shadow
 ```
 
 ### PvE Ice S-B Tiers
 
 ```
-+mamoswine,+weavile&shadow,+baxcalibur,+darmanitan&galar,+glalie&!shadow,+mewtwo&shadow
++mamoswine,+weavile,+baxcalibur,+darmanitan&galar,+glalie,+mewtwo&!+weavile,shadow&!+mewtwo,shadow
 ```
 
 ### PvE Poison S-B Tiers
 
 ```
-+beedrill&!shadow,+gengar,+nihilego,+toxicroak&shadow,+victreebel&shadow,+vileplume&shadow,+roserade
++beedrill,+gengar,+nihilego,+toxicroak,+victreebel,+vileplume,+roserade&!+toxicroak,shadow&!+victreebel,shadow&!+vileplume,shadow
 ```
 
 ### PvE Psychic S-B Tiers
 
 ```
-+mewtwo,+alakazam,+latios,+gallade&!shadow,+gardevoir&!shadow,+metagross,+hoopa
++mewtwo,+alakazam,+latios,+gallade,+gardevoir,+metagross,+hoopa
 ```
 
 ### PvE Rock S-B Tiers
 
 ```
-+rampardos,+diancie&!shadow,+rhyperior&shadow,+tyranitar&!shadow,+aerodactyl&!shadow,+gigalith&shadow
++rampardos,+diancie,+rhyperior,+tyranitar,+aerodactyl,+gigalith&!+rhyperior,shadow&!+gigalith,shadow
 ```
 
 ### PvE Steel S-B Tiers
 
 ```
-+metagross,+excadrill&shadow,+dialga,+aggron&!shadow
++metagross,+excadrill,+dialga,+aggron&!+excadrill,shadow
 ```
 
 ### PvE Water S-B Tiers
 
 ```
-+kyogre,+swampert,+blastoise&!shadow,+gyarados,+empoleon&shadow,+feraligatr&shadow,crawdaunt&shadow
++kyogre,+swampert,+blastoise,+gyarados,+empoleon,+feraligatr,+crawdaunt&!+empoleon,shadow&!+feraligatr,shadow&!+crawdaunt,shadow
 ```
 
 ### All S Tiers
