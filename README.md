@@ -9,10 +9,18 @@ Tiers based on [PoGo Raid & Info Sheets](https://docs.google.com/spreadsheets/d/
 +heracross&!shadow,+pinsir,+pheromosa,+volcarona,+beedrill&!shadow,+scizor
 ```
 
+```
+214&!shadow,127,795,637,13-15&!shadow,123,212
+```
+
 ### PvE Dark S-B Tiers
 
 ```
 +tyranitar,+houndoom,+hydreigon,+gyarados&!shadow,+weavile&shadow,+absol&!shadow,+darkrai,+honchkrow&shadow
+```
+
+```
+246-248,228-229,633-635,129-130&!shadow,215&shadow,461&shadow,359&!shadow,491,198&shadow,430&shadow
 ```
 
 ### PvE Dragon S-B Tiers
