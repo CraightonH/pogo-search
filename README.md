@@ -6,127 +6,141 @@ Tiers based on [PoGo Raid & Info Sheets](https://docs.google.com/spreadsheets/d/
 ### PvE Bug S-B Tiers
 
 ```
-+heracross&!shadow,+pinsir,+pheromosa,+volcarona,+beedrill&!shadow,+scizor
-```
-
-```
-214&!shadow,127,795,637,13-15&!shadow,123,212
++heracross,+pinsir,+pheromosa,+volcarona,+beedrill,+scizor
 ```
 
 ### PvE Dark S-B Tiers
 
 ```
-+tyranitar,+houndoom,+hydreigon,893&!43,+gyarados&!shadow,+weavile&shadow,+absol&!shadow,+darkrai,+honchkrow&shadow
-```
-
-```
-246-248,228-229,633-635,129-130&!shadow,215&shadow,461&shadow,359&!shadow,491,198&shadow,430&shadow
++tyranitar,+houndoom,+hydreigon,+gyarados,+weavile,+absol,+darkrai,+honchkrow&!+weavile,shadow&!+honchkrow,shadow
 ```
 
 ### PvE Dragon S-B Tiers
 
 ```
-+rayquaza,+garchomp,+salamence,+dragonite&shadow,+latios&!shadow,+latias
++rayquaza,+garchomp,+salamence,+dragonite,+latios,+latias&!+dragonite,shadow
 ```
 
 ### PvE Electric S-B Tiers
 4-6,66-68,92-94,147-150,220-221,371-376,473&!66,shadow&!67,shadow&!68,shadow&!147,shadow&!148,shadow&!149,shadow&!150,shadow&!220,shadow&!221,shadow&!371,shadow&!372,shadow&!373,shadow&!374,shadow&!375,shadow&!376,shadow&!473,shadow
 ```
-+raikou&shadow,+xurkitree,+manectric&!shadow,+zekrom,+electivire&shadow,+zapdos&shadow,+thundurus,+magnezone&shadow,+luxray&shadow,+ampharos&!shadow
++raikou,+xurkitree,+manectric,+zekrom,+electivire,+zapdos,+thundurus,+magnezone,+luxray,+ampharos&!+raikou,shadow&!+electivire,shadow&!+zapdos,shadow&!+magnezone,shadow&!+luxray,shadow
 ```
 
 ### PvE Fairy S-B Tiers
 
 ```
-+gardevoir,+alakazam&!shadow,+granbull&shadow
++gardevoir,+alakazam,+granbull&!+granbull,shadow
 ```
 
 ### PvE Fighting S-B Tiers
 
 ```
-+lucario&!shadow,+blaziken&!shadow,+heracross&!shadow,+terrakion,+machamp&shadow,+keldeo,+alakazam&!shadow,+hariyama&shadow
++lucario,+blaziken,+heracross,+terrakion,+machamp,+keldeo,+alakazam,+hariyama&!+machamp,shadow&!+hariyama,shadow
 ```
 
 ### PvE Fire S-B Tiers
 
 ```
-+blaziken,+charizard,+reshiram,+entei&shadow,+moltres&shadow,+ho-oh&shadow,+chandelure&shadow
++blaziken,+charizard,+reshiram,+entei&shadow,+moltres,+ho-oh,+chandelure&!+entei,shadow&!+moltres,shadow&!+ho-oh,shadow&!+chandelure,shadow
 ```
 
 ### PvE Flying S-B Tiers
 
 ```
-+rayquaza,+moltres&shadow,+yveltal,+staraptor&shadow,+pidgeot&!shadow,+ho-oh&shadow,+honchkrow&shadow,+lugia
++rayquaza,+moltres,+yveltal,+staraptor,+pidgeot,+ho-oh,+honchkrow,+lugia&!+moltres,shadow&!+staraptor,shadow&!+ho-oh,shadow&!+honchkrow,shadow
 ```
 
 ### PvE Ghost S-B Tiers
 
 ```
-+gengar,+banette,+chandelure&shadow,+mewtwo&shadow,+giratina
++gengar,+banette,+chandelure,+mewtwo,+giratina&!+chandelure,shadow&!+mewtwo,shadow
 ```
 
 ### PvE Grass S-B Tiers
 
 ```
-+sceptile,+kartana,+venusar&!shadow,+shaymin
++sceptile,+kartana,+venusar,+shaymin
 ```
 
 ### PvE Ground S-B Tiers
 
 ```
-+groudon,+garchomp,+excadrill&shadow,+mamoswine&shadow,+landorus,+rhyperior&shadow
++groudon,+garchomp,+excadrill,+mamoswine,+landorus,+rhyperior&!+excadrill,shadow&!+mamoswine,shadow&!+rhyperior,shadow
 ```
 
 ### PvE Ice S-B Tiers
 
 ```
-+mamoswine,+weavile&shadow,+baxcalibur,+darmanitan&galar,+glalie&!shadow,+mewtwo&shadow
++mamoswine,+weavile,+baxcalibur,+darmanitan&galar,+glalie,+mewtwo&!+weavile,shadow&!+mewtwo,shadow
 ```
 
 ### PvE Poison S-B Tiers
 
 ```
-+beedrill&!shadow,+gengar,+nihilego,+toxicroak&shadow,+victreebel&shadow,+vileplume&shadow,+roserade
++beedrill,+gengar,+nihilego,+toxicroak,+victreebel,+vileplume,+roserade&!+toxicroak,shadow&!+victreebel,shadow&!+vileplume,shadow
 ```
 
 ### PvE Psychic S-B Tiers
 
 ```
-+mewtwo,+alakazam,+latios,+gallade&!shadow,+gardevoir&!shadow,+metagross,+hoopa
++mewtwo,+alakazam,+latios,+gallade,+gardevoir,+metagross,+hoopa
 ```
 
 ### PvE Rock S-B Tiers
 
 ```
-+rampardos,+diancie&!shadow,+rhyperior&shadow,+tyranitar&!shadow,+aerodactyl&!shadow,+gigalith&shadow
++rampardos,+diancie,+rhyperior,+tyranitar,+aerodactyl,+gigalith&!+rhyperior,shadow&!+gigalith,shadow
 ```
 
 ### PvE Steel S-B Tiers
 
 ```
-+metagross,+excadrill&shadow,+dialga,+aggron&!shadow
++metagross,+excadrill,+dialga,+aggron&!+excadrill,shadow
 ```
 
 ### PvE Water S-B Tiers
 
 ```
-+kyogre,+swampert,+blastoise&!shadow,+gyarados,+empoleon&shadow,+feraligatr&shadow,crawdaunt&shadow
++kyogre,+swampert,+blastoise,+gyarados,+empoleon,+feraligatr,+crawdaunt&!+empoleon,shadow&!+feraligatr,shadow&!+crawdaunt,shadow
 ```
 
 ### All S Tiers
 
+#### Non-shadow (Mega if possible)
 ```
-+heracross&!shadow,+tyranitar,+rayquaza,+garchomp&!shadow,+gardevoir&!shadow,+lucario&!shadow,+blaziken&!shadow,+charizard&!shadow,+rayquaza&!shadow,+gengar&!shadow,+sceptile&!shadow,+groudon&!shadow,+mamoswine&shadow,+beedrill&!shadow,+mewtwo&shadow,+alakazam&!shadow,+rampardos&shadow,+metagross&shadow,+kyogre&shadow,+swampert&!shadow,+blastoise&!shadow
++heracross,+tyranitar,+rayquaza,+garchomp,+gardevoir,+lucario,+blaziken,+charizard,+rayquaza,+gengar,+sceptile,+groudon,+beedrill,+alakazam,+swampert,+blastoise,&!shadow
+```
+
+#### Shadow
+```
++mewtwo,+rampardos,+metagross,+kyogre,&shadow
 ```
 
 ### All A Tiers
 
+#### Non-shadow (Mega if possible)
+
 ```
-+pinsir&!shadow,+pheromosa&!shadow,+volcarona&!shadow,+houndoom&!shadow,+hydreigon,+weavile&shadow,+salamence,+garchomp&shadow,+dragonite&shadow,+latios&!shadow,+raikou&shadow,+xurkitree,+manectric&!shadow,+zekrom,+electivire&shadow,+zapdos&shadow,+thundurus,+magnezone&shadow,+gardevoir&shadow,+terrakion,+machamp&shadow,+reshiram,+blaziken&shadow,+moltres&shadow,+yveltal,+staraptor&shadow,+pidgeot&!shadow,+ho-oh&shadow,+banette&!shadow,+chandelure&shadow,+gengar&shadow,+kartana,+venusaur&!shadow,+excadrill&shadow,+baxcalibur&!shadow,+darmanitan&galar,+nihilego,+toxicroak&shadow,+mewtwo&!shadow,+gallade&!shadow,+diancie&!shadow,+rhyperior&shadow,+metagross&!shadow,+excadrill&shadow,+gyarados&!shadow,+kyogre&!shadow,+swampert&shadow,+empoleon&shadow,+feraligatr&shadow
++pinsir,+pheromosa,+volcarona,+houndoom,+hydreigon,+salamence,+latios,+xurkitree,+manectric,+zekrom,+thundurus,+terrakion,+reshiram,+yveltal,+pidgeot,+h,+banette,+kartana,+venusaur,+baxcalibur,+darmanitan&galar,+nihilego,+mewtwo,+gallade,+diancie,+metagross,+gyarados,+kyogre,&!shadow
+```
+
+#### Shadow
+
+```
++hydreigon,+weavile,+salamence,+garchomp,+dragonite,+raikou,+xurkitree,+zekrom,+electivire,+zapdos,+thundurus,+magnezone,+gardevoir,+terrakion,+machamp,+reshiram,+blaziken,+moltres,+yveltal,+staraptor,+ho-oh,+chandelure,+gengar,+kartana,+excadrill,+nihilego,+toxicroak,+rhyperior,+swampert,+empoleon,+feraligatr,&shadow
 ```
 
 ### All B Tiers
 
+#### Non-shadow (Mega if possible)
+
 ```
-+scizor,+absol&!shadow,+darkrai,+honchkrow&shadow,+houndoom&shadow,+latias&!shadow,+latios&shadow,+luxray&shadow,+ampharos&!shadow,+granbull&shadow,+keldeo,+hariyama&shadow,+entei&shadow,+moltres&shadow,+chandelure&shadow,+charizard&shadow,+lugia,+giratina,+shaymin,+sceptile&shadow,+landorus,+mamoswine&!shadow,+glalie&!shadow,+victreebel&shadow,+vileplume&shadow,+hoopa,+alakazam&shadow,+aerodactyl&!shadow,+gigalith&shadow,+dialga,+aggron&!shadow,+gyarados&shadow,+crawdaunt&shadow,+roserade
++scizor,+absol,+darkrai,+latias,+ampharos,+keldeo,+lugia,+giratina,+shaymin,+landorus,+mamoswine,+glalie,+hoopa,+aerodactyl,+dialga,+aggron,+roserade,&!shadow
+```
+
+#### Shadow
+
+```
++scizor,+darkrai,+honchkrow,+houndoom,+latios,+luxray,+granbull,+keldeo,+hariyama,+entei,+moltres,+chandelure,+charizard,+lugia,+giratina,+shaymin,+sceptile,+landorus,+victreebel,+vileplume,+hoopa,+alakazam,+gigalith,+dialga,+gyarados,+crawdaunt,+roserade,&shadow
 ```
