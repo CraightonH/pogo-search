@@ -1,0 +1,108 @@
+---
+spreadsheetId: 1avftwmBHszB0s1_5-Z_REvvAMXdLk0vMJI3GYsSWGkg
+sheets:
+  pve:
+    name: PVE Top
+    ranges:
+      - type: Bug
+        range:
+          startCol: B
+          startRow: 4
+          endCol: L
+          endRow: 25
+      - type: Dark
+        range:
+          startCol: N
+          startRow: 4
+          endCol: X
+          endRow: 25
+      - type: Dragon
+        range:
+          startCol: Z
+          startRow: 4
+          endCol: AJ
+          endRow: 25
+      - type: Electric
+        range:
+          startCol: AL
+          startRow: 4
+          endCol: AV
+          endRow: 25
+      - type: Fairy
+        range:
+          startCol: AX
+          startRow: 4
+          endCol: BH
+          endRow: 25
+      - type: Fighting
+        range:
+          startCol: BJ
+          startRow: 4
+          endCol: BT
+          endRow: 25
+      - type: Fire
+        range:
+          startCol: BV
+          startRow: 4
+          endCol: CF
+          endRow: 25
+      - type: Flying
+        range:
+          startCol: CH
+          startRow: 4
+          endCol: CR
+          endRow: 25
+      - type: Ghost
+        range:
+          startCol: CT
+          startRow: 4
+          endCol: DD
+          endRow: 25
+      - type: Grass
+        range:
+          startCol: DF
+          startRow: 4
+          endCol: DP
+          endRow: 25
+      - type: Ground
+        range:
+          startCol: DR
+          startRow: 4
+          endCol: EB
+          endRow: 25
+      - type: Ice
+        range:
+          startCol: ED
+          startRow: 4
+          endCol: EN
+          endRow: 25
+      - type: Poison
+        range:
+          startCol: EP
+          startRow: 4
+          endCol: EZ
+          endRow: 25
+      - type: Psychic
+        range:
+          startCol: FB
+          startRow: 4
+          endCol: FL
+          endRow: 25
+      - type: Rock
+        range:
+          startCol: FN
+          startRow: 4
+          endCol: FX
+          endRow: 25
+      - type: Steel
+        range:
+          startCol: FZ
+          startRow: 4
+          endCol: GJ
+          endRow: 25
+      - type: Water
+        range:
+          startCol: GL
+          startRow: 4
+          endCol: GV
+          endRow: 25

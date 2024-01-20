@@ -16,7 +16,7 @@ Tiers based on [PoGo Raid & Info Sheets](https://docs.google.com/spreadsheets/d/
 ### PvE Dark S-B Tiers
 
 ```
-+tyranitar,+houndoom,+hydreigon,+gyarados&!shadow,+weavile&shadow,+absol&!shadow,+darkrai,+honchkrow&shadow
++tyranitar,+houndoom,+hydreigon,893&!43,+gyarados&!shadow,+weavile&shadow,+absol&!shadow,+darkrai,+honchkrow&shadow
 ```
 
 ```
@@ -30,7 +30,7 @@ Tiers based on [PoGo Raid & Info Sheets](https://docs.google.com/spreadsheets/d/
 ```
 
 ### PvE Electric S-B Tiers
-
+4-6,66-68,92-94,147-150,220-221,371-376,473&!66,shadow&!67,shadow&!68,shadow&!147,shadow&!148,shadow&!149,shadow&!150,shadow&!220,shadow&!221,shadow&!371,shadow&!372,shadow&!373,shadow&!374,shadow&!375,shadow&!376,shadow&!473,shadow
 ```
 +raikou&shadow,+xurkitree,+manectric&!shadow,+zekrom,+electivire&shadow,+zapdos&shadow,+thundurus,+magnezone&shadow,+luxray&shadow,+ampharos&!shadow
 ```

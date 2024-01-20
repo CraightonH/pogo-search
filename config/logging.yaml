@@ -1,0 +1,4 @@
+logging:
+  level: "debug"
+  format: '%(asctime)s - %(levelname)s - [%(name)s] %(message)s'
+  redact_sensitive_fields: true
