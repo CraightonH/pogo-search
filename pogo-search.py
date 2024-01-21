@@ -139,7 +139,7 @@ def getTopPvePokemon():
 
 def getRaidCounters():
   # assume most damage is from shadow/mega forms, so don't track the differences 
-  log.info("Parsing results")
+  log.info("Getting Raid Counter Pokemon Data")
   pokemon = {"boss": set(), "counters": set()}
   spreadsheetId = config['spreadsheetId']
   sheetId = "raid"
@@ -220,6 +220,7 @@ def buildQueryString(pokemonList):
   return wholeQueryStr
 
 def writeQueryToFile(filePath, query):
+  log.info(f"Writing data to {config['output']['folder']}/{filePath}")
   with open(f"{config['output']['folder']}/{filePath}", 'w') as f:
     f.write(query)
 
@@ -228,15 +229,16 @@ if __name__ == "__main__":
 
   pvePokemon = getTopPvePokemon()
   tierQueryStrings = buildTierQueryStrings(pvePokemon['tiers'])
-  log.debug(f"tierQueryStrings: {tierQueryStrings}")
+  # log.debug(f"tierQueryStrings: {tierQueryStrings}")
   for tier in tierQueryStrings:
     writeQueryToFile(f"pve/tiers/{tier}tier.txt", tierQueryStrings[tier])
 
   typeQueryStrings = buildTypeQueryStrings(pvePokemon['types'])
-  log.debug(f"typeQueryStrings: {typeQueryStrings}")
+  # log.debug(f"typeQueryStrings: {typeQueryStrings}")
   for pType in typeQueryStrings:
     writeQueryToFile(f"pve/types/{pType}.txt", typeQueryStrings[pType])
 
   raidCounterPokemon = getRaidCounters()
   raidCounterQueryString = buildRaidCounterQueryString(raidCounterPokemon['counters'])
   writeQueryToFile(f"pve/raid/{raidCounterPokemon['boss'].pop()}.txt", raidCounterQueryString)
+  writeQueryToFile(f"pve/raid/_ThisWeek.txt", raidCounterQueryString)
