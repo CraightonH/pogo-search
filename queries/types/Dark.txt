@@ -1,0 +1,1 @@
++houndoom,+weavile,+tyranitar,+sharpedo,+absol,+hydreigon,+gyarados,+yveltal,+zarude,+guzzlord,+zoroark,+gengar,+darkrai,+shiftry,+honchkrow,+muk&!+hydreigon,!shadow&!+gyarados,!shadow&!+yveltal,!shadow&!+zarude,!shadow&!+guzzlord,!shadow&!+zoroark,!shadow&!+gengar,!shadow&!+darkrai,!shadow&!+shiftry,shadow&!+honchkrow,shadow&!+muk,shadow&!+muk,alola

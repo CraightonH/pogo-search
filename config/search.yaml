@@ -1,0 +1,57 @@
+---
+shadows:
+  - findFromData: "shadow "
+
+transforms:
+  - "mega "
+  - "apex "
+  - "primal "
+  - " - hero"
+  - " (therian)"
+  - " (incarnate)"
+  - " (unbound)"
+  - " (confined)"
+  - " (origin)"
+  - " (altered)"
+  - " (sky)"
+  - " (land)"
+  - " Y"
+  - " X"
+
+regions:
+  alola: # Most common
+    demonym: alolan
+    shorthand: " a "
+  galar:
+    demonym: galarian
+  hisui:
+    demonym: hisuian
+  kanto:
+    demonym: kantoan
+  johto:
+    demonym: johtan
+  hoenn:
+    demonym: hoennian
+  sinnoh:
+    demonym: sinnohan
+  unova:
+    demonym: unovian
+  kalos:
+    demonym: kalosian
+  paldea: # least common
+    demonym: paldean
+
+tier:
+  remove:
+    - "+"
+    - "-"
+
+search:
+  and: "&"
+  not: "!"
+  also: ","
+  family: "+"
+  shadow: shadow
+
+output:
+  folder: queries

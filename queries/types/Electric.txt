@@ -1,0 +1,1 @@
++zapdos,+electivire,+magnezone,+manectric,+raikou,+luxray,+xurkitree,+ampharos,+vikavolt,+thundurus,+tapu koko,+zekrom,+golem,+mewtwo,+arcanine,+zebstrika&!+xurkitree,!shadow&!+ampharos,!shadow&!+vikavolt,!shadow&!+thundurus,!shadow&!+tapu koko,!shadow&!+zekrom,!shadow&!+golem,shadow&!+mewtwo,shadow&!+arcanine,shadow&!+zebstrika,shadow&!+golem,alola

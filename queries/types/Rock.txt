@@ -1,0 +1,1 @@
++rampardos,+tyranitar,+gigalith,+rhyperior,+aerodactyl,+aggron,+diancie,+aurorus,+terrakion,+tyrantrum,+omastar,+golem,+regirock,+golem&!+diancie,!shadow&!+aurorus,!shadow&!+terrakion,!shadow&!+tyrantrum,!shadow&!+omastar,shadow&!+golem,shadow&!+regirock,shadow&!+golem,shadow&!+golem,alola
