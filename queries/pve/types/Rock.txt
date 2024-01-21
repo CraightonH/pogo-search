@@ -1,1 +1,1 @@
-+rhyperior,+tyranitar,+gigalith,+aerodactyl,+aggron,+rampardos,+terrakion,+aurorus,+tyrantrum,+diancie,+omastar,+golem,+regirock,+golem&!+terrakion,!shadow&!+aurorus,!shadow&!+tyrantrum,!shadow&!+diancie,!shadow&!+omastar,shadow&!+golem,shadow&!+regirock,shadow&!+golem,shadow&!+golem,alola
++rhyperior,+rampardos,+tyranitar,+aggron,+gigalith,+aerodactyl,+diancie,+terrakion,+tyrantrum,+aurorus,+golem,+regirock,+golem,+omastar&!+diancie,!shadow&!+terrakion,!shadow&!+tyrantrum,!shadow&!+aurorus,!shadow&!+golem,shadow&!+regirock,shadow&!+golem,shadow&!+omastar,shadow&!+golem,alola

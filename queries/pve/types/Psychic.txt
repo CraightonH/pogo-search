@@ -1,1 +1,1 @@
-+latios,+gallade,+latias,+alakazam,+gardevoir,+metagross,+mewtwo,+slowbro,+espeon,+hoopa,+lunala,+exeggutor&!+slowbro,!shadow&!+espeon,!shadow&!+hoopa,!shadow&!+lunala,!shadow&!+exeggutor,shadow
++gallade,+gardevoir,+alakazam,+latios,+latias,+mewtwo,+metagross,+slowbro,+hoopa,+lunala,+espeon,+exeggutor&!+slowbro,!shadow&!+hoopa,!shadow&!+lunala,!shadow&!+espeon,!shadow&!+exeggutor,shadow

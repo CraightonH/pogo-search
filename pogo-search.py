@@ -241,4 +241,4 @@ if __name__ == "__main__":
   raidCounterPokemon = getRaidCounters()
   raidCounterQueryString = buildRaidCounterQueryString(raidCounterPokemon['counters'])
   writeQueryToFile(f"pve/raid/{raidCounterPokemon['boss'].pop()}.txt", raidCounterQueryString)
-  writeQueryToFile(f"pve/raid/_ThisWeek.txt", raidCounterQueryString)
+  writeQueryToFile(f"pve/raid/000_ThisWeek.txt", raidCounterQueryString)
