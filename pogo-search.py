@@ -120,6 +120,7 @@ def buildPokemonObject(pokemonRange):
   return pokemonObj
 
 def getTopPvePokemon():
+  log.info("Getting Top PvE Pokemon Data")
   pokemon = {}
   pokemon['types'] = {}
   pokemon['tiers'] = {"S": [], "A": [], "B": [], "C": [], "D": [], "E": [], "F": []}
@@ -134,6 +135,22 @@ def getTopPvePokemon():
       pokemonObj = buildPokemonObject(pokemonRange)
       pokemon['tiers'][pokemonObj['tier']].append(pokemonObj)
       pokemon['types'][config['sheets'][sheetId]['ranges'][index]['type']].append(pokemonObj)
+  return pokemon
+
+def getRaidCounters():
+  # assume most damage is from shadow/mega forms, so don't track the differences 
+  log.info("Parsing results")
+  pokemon = {"boss": set(), "counters": set()}
+  spreadsheetId = config['spreadsheetId']
+  sheetId = "raid"
+  batchResults = batchGetValues(spreadsheetId, buildRangeNames(config['sheets'][sheetId]['name'], config['sheets'][sheetId]['ranges']))
+  valueRanges = batchResults['valueRanges']
+  log.info("Parsing results")
+  for index in range(len(config['sheets'][sheetId]['ranges'])):
+    rangeName = config['sheets'][sheetId]['ranges'][index]['name']
+    for pokemonRange in valueRanges[index]['values']:
+      for pokemonName in pokemonRange:
+        pokemon[rangeName].add(pokemonName.replace('Mega ', '').strip())
   return pokemon
 
 def buildTierQueryStrings(tiers):
@@ -151,6 +168,13 @@ def buildTypeQueryStrings(types):
     queryStrings[pType] = ""
     queryStrings[pType] = buildQueryString(types[pType])
   return queryStrings
+
+def buildRaidCounterQueryString(pokemonSet):
+  log.info("Building raid counter query string")
+  allPokemonQueryStr = ""
+  for pokemon in pokemonSet:
+    allPokemonQueryStr = allPokemonQueryStr + f"{config['search']['family']}{pokemon}{config['search']['also']}"
+  return allPokemonQueryStr[:-1]
 
 def buildQueryString(pokemonList):
   allPokemonQueryStr = ""
@@ -206,9 +230,13 @@ if __name__ == "__main__":
   tierQueryStrings = buildTierQueryStrings(pvePokemon['tiers'])
   log.debug(f"tierQueryStrings: {tierQueryStrings}")
   for tier in tierQueryStrings:
-    writeQueryToFile(f"tiers/{tier}tier.txt", tierQueryStrings[tier])
+    writeQueryToFile(f"pve/tiers/{tier}tier.txt", tierQueryStrings[tier])
 
   typeQueryStrings = buildTypeQueryStrings(pvePokemon['types'])
   log.debug(f"typeQueryStrings: {typeQueryStrings}")
   for pType in typeQueryStrings:
-    writeQueryToFile(f"types/{pType}.txt", typeQueryStrings[pType])
+    writeQueryToFile(f"pve/types/{pType}.txt", typeQueryStrings[pType])
+
+  raidCounterPokemon = getRaidCounters()
+  raidCounterQueryString = buildRaidCounterQueryString(raidCounterPokemon['counters'])
+  writeQueryToFile(f"pve/raid/{raidCounterPokemon['boss'].pop()}.txt", raidCounterQueryString)

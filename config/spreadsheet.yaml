@@ -1,6 +1,21 @@
 ---
 spreadsheetId: 1avftwmBHszB0s1_5-Z_REvvAMXdLk0vMJI3GYsSWGkg
 sheets:
+  raid:
+    name: Raid Counters
+    ranges:
+      - name: boss
+        range:
+          startCol: D
+          startRow: 7
+          endCol: P
+          endRow: 8
+      - name: counters
+        range:
+          startCol: J
+          startRow: 10
+          endCol: M
+          endRow: 15
   pve:
     name: PVE Top
     ranges:
