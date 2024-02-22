@@ -1,1 +1,1 @@
-+salamence,+garchomp,+latios,+dragonite,+latias,+reshiram,+rayquaza,+gyarados,+dialga,+baxcalibur,+palkia,+zekrom,+haxorus,+exeggutor&!+reshiram,!shadow&!+rayquaza,!shadow&!+gyarados,!shadow&!+dialga,!shadow&!+baxcalibur,!shadow&!+palkia,!shadow&!+zekrom,!shadow&!+haxorus,!shadow&!+exeggutor,shadow&!+exeggutor,alola
++latias,+salamence,+garchomp,+latios,+dragonite,+dialga,+zekrom,+reshiram,+palkia,+gyarados,+haxorus,+rayquaza&!+dialga,!shadow&!+zekrom,!shadow&!+reshiram,!shadow&!+palkia,!shadow&!+gyarados,!shadow&!+haxorus,!shadow&!+rayquaza,!shadow
