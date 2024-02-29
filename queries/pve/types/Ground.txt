@@ -1,1 +1,1 @@
-+excadrill,+swampert,+garchomp,+golurk,+rhyperior,+mamoswine,+landorus,+groudon,+krookodile,+donphan,+hippowdon,+flygon,+golem&!+landorus,!shadow&!+groudon,!shadow&!+krookodile,!shadow&!+donphan,shadow&!+hippowdon,shadow&!+flygon,shadow&!+golem,shadow
++swampert,+golurk,+excadrill,+rhyperior,+garchomp,+mamoswine,+krookodile,+groudon,+landorus,+donphan,+golem,+flygon,+hippowdon&!+krookodile,!shadow&!+groudon,!shadow&!+landorus,!shadow&!+donphan,shadow&!+golem,shadow&!+flygon,shadow&!+hippowdon,shadow
