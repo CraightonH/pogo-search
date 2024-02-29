@@ -230,8 +230,12 @@ if __name__ == "__main__":
   pvePokemon = getTopPvePokemon()
   tierQueryStrings = buildTierQueryStrings(pvePokemon['tiers'])
   # log.debug(f"tierQueryStrings: {tierQueryStrings}")
+  combinedTierQueryStrings = f"{tierQueryStrings['S']}"
   for tier in tierQueryStrings:
     writeQueryToFile(f"pve/tiers/{tier}tier.txt", tierQueryStrings[tier])
+    if tier != "S":
+      combinedTierQueryStrings = ",".join([combinedTierQueryStrings, tierQueryStrings[tier]])
+      writeQueryToFile(f"pve/keep/S-{tier}tier.txt", combinedTierQueryStrings)
 
   typeQueryStrings = buildTypeQueryStrings(pvePokemon['types'])
   # log.debug(f"typeQueryStrings: {typeQueryStrings}")
